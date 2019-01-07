@@ -10,7 +10,6 @@
 
 ## Platform and expertise
 
-
 - Bioconductor recap -- 'Statistical analysis & comprehension'; interactive; core and contributed packages; typical use with some but far from all packages used.
 
   - Primary use is INTERACTIVE
@@ -18,27 +17,40 @@
 
 ## Role in AnVIL
 
-Recap of our role, possibly show an updated 'Ideal AnVIL architecture' graphic
-
-Initial development
+1. Initial development
 
 - Standardized, correct containers for essential Bioconductor packages through RStudio & Jupyter. 'Release' and 'devel' flavors. See https://github.com/Bioconductor/AnVIL_Docker (work in progesss)
 
 - R-based Leonardo REST interface -- primarily to help developers. See https://github.com/Bioconductor/AnVIL (nitesh_dev branch until merged)
 
-Single RStudio / Jupyter instance user interface to AnVIL
+- Existing Bioconductor cloud-based activities -- Annotation & ExperimentHub, BiocOncoTK, ...
+
+2. Single RStudio / Jupyter instance user interface to AnVIL
 
 - Access to user and protected data using standard R idioms. Maybe data resources are just 'files' on the file system and no special implementation is required; maybe data resource metadata needs to be 'discovered' and presented to the user through some kind of R / Bioconductor based interface.
 
 - Access to 'standard' (??) Firecloud / Terra services -- discover & run services on user and protected data from within R. E.g., perform https://software.broadinstitute.org/firecloud/documentation/article?id=11115 but from an R script.
+
+- Essential to have standard APIs published early to write R-level functions around
   
-Several R / Bioconductor instances
+3. Several R / Bioconductor instances
 
 - Launch and manage many R / Bioconductor instances in firecloud; interact via BiocParallel-like task distribution
 
   - Management via CloudMan / Kubernetes / 'native' Firecloud / ...
 
-- Implement firecloud / terra services in R / Bioconductor
+- Implement Terra services in R / Bioconductor
+  - ?? WDL-enabled R (sdavis/wdlrunner / cromwell / ...)
+  - WDL fits well with Bioc formal objects (vs. R's more relaxed approach)
+  - ?? provided as container.
+
+- Importance of scalable container infrastructure
+  - Use Galaxy CloudMan or Firecloud infrastructure to spin up instances
+  - Communicate & drive from within 'manager' RStudio instance, e.g., via BiocParallel & rabbitmq parallel evaluation
+
+4. Training
+
+5. What we do right
 
 ## Demo
 
