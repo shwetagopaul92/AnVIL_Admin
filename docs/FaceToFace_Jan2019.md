@@ -21,7 +21,7 @@
 
 - Standardized, correct containers for essential Bioconductor packages through RStudio & Jupyter. 'Release' and 'devel' flavors. See https://github.com/Bioconductor/AnVIL_Docker (work in progesss)
 
-- R-based Leonardo REST interface -- primarily to help developers. See https://github.com/Bioconductor/AnVIL (nitesh_dev branch until merged)
+- R-based Leonardo REST interface -- primarily to help developers. See https://github.com/Bioconductor/AnVIL
 
 - Existing Bioconductor cloud-based activities -- Annotation & ExperimentHub, BiocOncoTK, ...
 
