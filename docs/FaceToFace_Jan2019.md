@@ -40,7 +40,7 @@
   - Management via CloudMan / Kubernetes / 'native' Firecloud / ...
 
 - Implement Terra services in R / Bioconductor
-  - ?? WDL-enabled R (sdavis/wdlrunner / cromwell / ...)
+  - ?? WDL-enabled R (e.g., Sean Davis' [wdlRunR][1])
   - WDL fits well with Bioc formal objects (vs. R's more relaxed approach)
   - ?? provided as container.
 
@@ -52,7 +52,4 @@
 
 5. What we do right
 
-## Demo
-
-- Nitesh
-- Vince and BJ
+[1]: https://github.com/seandavi/wdlRunR
