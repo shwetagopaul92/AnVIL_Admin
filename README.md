@@ -11,4 +11,4 @@ See [README_GITHUB_IO][] for instructions on editing (including local
 previews) the github.io site.
 
 [projects]: https://github.com/Bioconductor/AnVIL_Admin/projects
-[README_GITHUB_IO]: https://github.com/Bioconductor/AnVIL_Admin/README_GITHUB_IO.md
+[README_GITHUB_IO]: https://github.com/Bioconductor/AnVIL_Admin/blob/master/README_GITHUB_IO.md
