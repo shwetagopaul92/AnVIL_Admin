@@ -46,3 +46,8 @@ Learn more [about][] _Bioconductor_ and _AnVIL_.
   function).
 
 [_Bioconductor_ containers]: https://github.com/Bioconductor/bioconductor_full
+
+[_Illustrative notebooks_][]
+
+- (available)
+    - [Using Bioconductor's VCF processing stack](https://github.com/vjcitn/terravar/blob/master/Tiny%20population%20stratification%20display.ipynb) to demonstrate population stratification using a small slice of chr17 from the new EBI 1000 genomes VCF
