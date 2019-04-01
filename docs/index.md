@@ -50,4 +50,4 @@ Learn more [about][] _Bioconductor_ and _AnVIL_.
 _Illustrative notebooks_
 
 - (available)
-    - [Using Bioconductor's VCF processing stack](https://github.com/vjcitn/terravar/blob/master/Tiny%20population%20stratification%20display.ipynb) to demonstrate population stratification using a small slice of chr17 from the new EBI 1000 genomes VCF
+    - [Using Bioconductor's VCF processing stack](https://github.com/vjcitn/terravar/blob/master/Tiny%20population%20stratification%20display.ipynb) to demonstrate population stratification using a small slice of chr17 from the [new EBI 1000 genomes VCF](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/release/20190312_biallelic_SNV_and_INDEL/20190312_biallelic_SNV_and_INDEL_README.txt)
